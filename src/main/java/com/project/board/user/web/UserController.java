@@ -14,15 +14,16 @@ public class UserController {
     @Autowired
     public UserService userService;
 
-    @RequestMapping(value = "/user", method = RequestMethod.GET, produces = "text/html")
-    public String userView2() {
+    @RequestMapping(value = "/userlist", method = RequestMethod.GET, produces = "text/html")
+    public String userView() {
         System.out.println("테스트");
         return "user/index";
     }
 
-    @RequestMapping(value = "/db")
+    @RequestMapping(value = "/userlist", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public List<UserVO> userList() throws Exception {
+        System.out.println("userList");
 
         return userService.userList();
     }
