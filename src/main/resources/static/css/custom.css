@@ -1,0 +1,1767 @@
+/* COMMON */
+body, h1, h2, h3, h4, h5, h6, label {
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: -.8px;
+}
+
+p {
+    letter-spacing: -.8px;
+}
+
+.color-gray1 {
+    color: #a6a6a6 !important;
+}
+
+.color-gray2 {
+    color: #969696 !important;
+}
+
+.color-gray3 {
+    color: #494949 !important;
+}
+
+.btn {
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: -.8px;
+    font-size: 13px;
+}
+
+.btn.btn-default {
+    background: #b0b5b9;
+    padding: 10px 30px;
+    color: #fff !important;
+    border: 0 none;
+}
+
+.btn.btn-default:hover {
+    background: #34bac4;
+}
+
+.btn-default:not(:disabled):not(.disabled):active:hover, .btn-default.active, .btn-default:active, .btn-default.active:focus, .btn-default:active:focus {
+    border: 0 none !important;
+}
+
+.mont {
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif !important;
+}
+
+.opacity-06 {
+    opacity: .6;
+}
+
+.logout_icon {
+    color: #fff;
+    font-size: 25px;
+}
+
+/* user-info */
+.util_user > .row {
+    align-items: center;
+}
+
+.page-sidebar .sidebar-menu .util_user .user_thumb {
+    display: flex !important;
+    align-items: center;
+}
+
+/* ADMIN-LOGIN */
+.login-wrapper {
+    background: url('../img/login/login-bg.jpg') no-repeat;
+}
+
+.login-wrapper .bg-caption {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.login-wrapper .bg-caption h1 {
+    font-size: 36px;
+    line-height: 1.4;
+}
+
+.login-wrapper .login-container {
+    width: 600px;
+}
+
+.login-wrapper .login-container .login-loc {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.login-wrapper .login-container .form-group-default.focused {
+    border: 1px solid #34bac4 !important;
+}
+
+.login-wrapper .login-container .form-group-default.has-error label {
+    color: #34bac4;
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.login-wrapper .login-container label.error {
+    color: #34bac4;
+}
+
+.login-wrapper .login-container .form-control {
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: -.8px;
+    font-size: 13px;
+}
+
+.login-wrapper .login-container .change_pw {
+    color: #34bac4;
+}
+
+.login-wrapper .login-container .btn-primary, .login-wrapper .login-container .btn-primary:focus {
+    background-color: #34bac4 !important;
+    border: 0 none !important;
+    padding: 10px 50px;
+}
+
+.login-wrapper .login-container .login-footer {
+    left: 0;
+    width: 100%;
+    padding: 0 50px;
+}
+
+/* ADMIN-HOME */
+.page-sidebar {
+    width: 220px;
+}
+
+.page-sidebar .sidebar-menu .menu-items li:hover > a, .page-sidebar .sidebar-menu .menu-items li.open > a, .page-sidebar .sidebar-menu .menu-items li.active > a {
+    color: #329fa8;
+}
+
+.page-sidebar .sidebar-menu .menu-items li:hover > .icon-thumbnail, .page-sidebar .sidebar-menu .menu-items li.open > .icon-thumbnail, .page-sidebar .sidebar-menu .menu-items li.active > .icon-thumbnail {
+    color: #329fa8;
+}
+
+.page-sidebar .sidebar-menu .menu-items > li > a {
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.page-sidebar .sidebar-menu .menu-items li > a {
+    width: 100%;
+}
+
+.page-sidebar .sidebar-menu .menu-items > li > a > .arrow:before {
+    content: "\e988";
+}
+
+.page-sidebar .sidebar-menu .menu-items > li ul.sub-menu > li > a {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+    padding: 3px 0;
+}
+
+.page-sidebar .sidebar-menu .menu-items > li > a > .arrow.open:before {
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.page-sidebar .sidebar-menu .util_user {
+    padding: 20px 0;
+    border-bottom: 1px solid #393e49;
+}
+
+.page-sidebar .sidebar-menu .util_user p.name_tag {
+    padding-left: 30px;
+    margin-bottom: 0;
+    color: #b5bac5;
+}
+
+.page-sidebar .sidebar-menu .util_user p.name_tag b.white {
+    color: #fff;
+}
+
+.page-sidebar .sidebar-menu .util_user .user_thumb {
+    padding-right: 30px;
+}
+
+.page-sidebar .sidebar-menu .util_user .user_thumb .dropdown-menu.show {
+    padding: 10px 0;
+}
+
+.page-sidebar .sidebar-menu .util_user .user_thumb .dropdown-menu .logout {
+    color: #000;
+}
+
+.page-container .page-content-wrapper .content {
+    padding-top: 30px;
+}
+
+body.fixed-header .header {
+    display: none;
+}
+
+.page-container .page-content-wrapper .content {
+    padding-left: 190px;
+    width: calc(100% - 30px);
+}
+
+table.dataTable thead .trash_ico:after {
+    display: none;
+}
+
+.card.board_internal .card-body thead tr th {
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    letter-spacing: -.8px;
+    font-size: 13px;
+    color: #494949;
+}
+
+.card.board_internal .card-body td a {
+    color: #494949;
+}
+
+.card.board_internal .card-body tbody tr td {
+    padding: 15px 10px;
+    font-size: 13px;
+    position: relative;
+}
+
+.card.board_internal .card-body tbody tr td a {
+    position: relative;
+    display: inline-block;
+}
+
+.card.board_internal .card-body tbody tr:hover td a {
+    font-weight: 500;
+    color: #000;
+}
+
+.card.board_internal .card-body tbody tr:hover td a.btn {
+    background: #34bac4;
+}
+
+.card.board_internal .card-body tbody .form-check label {
+    margin-top: 5px;
+}
+
+.card.board_internal .card-body tbody tr td .new_ico {
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    right: -9px;
+    top: 0px;
+    background: #f7554e;
+    border-radius: 50%;
+}
+
+
+@media (min-width: 1824px) {
+    .menu-pin .container-fluid.container-fixed-lg {
+        width: 1650px;
+        padding-bottom: 140px !important;
+    }
+
+}
+
+@media only screen and (min-width: 980px) {
+    body.menu-pin .page-container .page-content-wrapper .content {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    body.menu-pin [data-toggle-pin="sidebar"] > i:before, [data-toggle-pin="sidebar"] > i:before {
+        content: '';
+    }
+
+    body.menu-behind .page-sidebar {
+        transform: translate(210px, 0) !important;
+        -webkit-transform: translate(210px, 0) !important;
+        -ms-transform: translate(210px, 0) !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    .login-wrapper .bg-pic {
+        width: 50%;
+    }
+
+    .login-wrapper .bg-caption {
+        padding-right: 50px;
+    }
+
+    .login-wrapper .bg-caption br {
+        display: none;
+    }
+
+    .login-wrapper .login-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    .page-container .page-content-wrapper .content {
+        padding-left: 0;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    body.fixed-header .header {
+        display: flex;
+    }
+
+    .header .brand {
+        margin-left: -10px !important;
+    }
+
+    .card.board_internal .card-header {
+        padding: 10px;
+    }
+
+    .card.board_internal .card-body {
+        padding: 10px;
+    }
+
+    .card.board_internal .card-body tbody tr {
+        margin-bottom: 0;
+    }
+
+    .card.board_internal .card-body tbody tr td {
+        padding: 10px;
+        display: table-cell;
+        border: 0;
+    }
+
+    .card.board_internal .card-body tbody tr td.mo_none {
+        display: none;
+    }
+
+    .card.board_internal .card-body tbody tr td.name {
+        width: 20%;
+    }
+
+    .card.board_internal .card-body tbody tr td.more {
+        width: 10%;
+    }
+
+    .card.board_internal .card-body tbody tr td a.btn {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .login-wrapper .bg-pic {
+        display: none;
+    }
+
+    .login-wrapper .login-container {
+        width: 100%;
+    }
+
+    .page-container .page-content-wrapper .content {
+        padding-bottom: 0;
+    }
+}
+
+
+/* -------------------------------------------------------------- */
+
+/************** view 화면 및 공통 수정 시작 **************/
+
+body .card {
+    margin: 0;
+}
+
+body .card .card-header {
+    padding: 0;
+    min-height: auto;
+    margin-bottom: 20px;
+}
+
+body .sm-gutter .dx-viewport .row {
+    align-items: center;
+    padding: 2px 0;
+    /*margin:0;*/
+}
+
+body .sm-gutter .dx-viewport > .row {
+    /*margin: 0;*/
+}
+
+/*container 패딩값 수정*/
+body .container-fluid {
+    padding: 30px 30px 0px 30px !important;
+}
+
+body .container-fluid .sm-gutter:last-of-type {
+    padding-top: 0 !important;
+}
+
+/*section 정렬*/
+.section {
+    margin-top: 30px;
+    position: relative;
+}
+
+.section:first-of-type {
+    margin-top: 0;
+}
+
+/*section 구분선 추가*/
+/*.section:after{content:""; width:calc(100% - 20px); height:1px; background:#bdc5ce; position:absolute;top:0; left:50%; transform: translateX(-50%); }*/
+.section:first-of-type:after {
+    display: none;
+}
+
+/*1단*/
+.sm-gutter .dx-viewport .row .col-box.col-box1 {
+    width: 100%;
+}
+
+/*2단*/
+.sm-gutter .dx-viewport .row .col-box.col-box2 {
+    width: calc(100% / 2 - 10px);
+    float: left;
+    margin-right: 30px;
+}
+
+.sm-gutter .dx-viewport .row .col-box.col-box2:last-of-type {
+    margin-right: 0;
+}
+
+.sm-gutter .dx-viewport .row .col-box.col-box2 {
+    width: calc(100% / 2 - 10px);
+    float: left;
+    margin-right: 30px;
+}
+
+.sm-gutter .dx-viewport .row:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.sm-gutter .dx-viewport .row .col-box.col-box2_1 {
+    width: calc(100% / 2 - 87.5px);
+    margin-right: 30px;
+}
+
+.sm-gutter .dx-viewport .row .col-box2_1_button {
+    width: 125px;
+}
+
+/*3단*/
+.sm-gutter .dx-viewport .row.col-box3_box {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sm-gutter .dx-viewport .row.col-box3 .tag_name {
+    padding: 0 20px;
+    text-align: center
+}
+
+.sm-gutter .dx-viewport .row.col-box3.col-md-4 {
+    padding: 0;
+}
+
+.sm-gutter .dx-viewport .row.col-box3.col-md-4:first-of-type .tag_name {
+    text-align: left;
+    padding: 0 5px
+}
+
+.sm-gutter .dx-viewport .row.col-box3 .row > div {
+    padding: 0;
+}
+
+
+/*col-btn*/
+.col-btn {
+    display: flex;
+    align-items: center;
+}
+
+.col-btn > div {
+    margin-right: 10px;
+}
+
+.col-btn > div:last-of-type {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/*기존 배경색 변경 및 정렬*/
+body.dashboard .page-container .page-content-wrapper .content {
+    width: 100%;
+    background: #fff;
+}
+
+body.dashboard .page-container {
+    background: #fff;
+}
+
+@media only screen and (min-width: 980px) {
+    body.menu-pin .page-container .page-content-wrapper .content {
+        padding-top: 0;
+    }
+
+    body.menu-pin .page-container .page-content-wrapper .content:first-of-type { /*padding-top:55px;*/
+        padding-top: 0;
+    }
+}
+
+/*전체적인 글자(크기,색,굵기)변경 */
+.dx-widget, .dx-theme-material-typography {
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.dx-theme-material-typography {
+    color: #26272e;
+    font-weight: 400;
+    font-family: 'Noto Sans KR', "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
+/*title 글자(크기,색,굵기)변경 */
+.h3, h3 {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 5px;
+    line-height: 25px;
+}
+
+/*border-bottom:2px solid #000;*/
+
+/************** 컨테이너 수정 및 전체 적용 끝 **************/
+
+
+/************** tag_name, input 수정 시작 **************/
+
+label, input, button, select, textarea, body .dx-widget {
+    font-weight: 400;
+}
+
+
+/*input autofill*/
+input:-webkit-autofill, input.error:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #f5f7f9 inset !important
+}
+
+/*tag icon 추가*/
+body .tag_icon {
+    margin-right: 7px;
+    font-size: 13px;
+    position: relative;
+    color: #33a6ac;
+}
+
+body .sub_tag_icon {
+    margin-right: 7px;
+    font-size: 10px;
+    color: #26272e;
+}
+
+/*기존 input focus시 선 모션 삭제*/
+/*body .dx-texteditor.dx-editor-underlined::after{display:none;}*/
+/*body .dx-texteditor::before{display:none}*/
+
+
+/*input 디자인 변경 및 focus 모션 추가*/
+body .dx-texteditor-input {
+    font-size: 14px;
+}
+
+/*body .dx-texteditor-container{background:#f5f7f9; border-radius: 5px; padding:3px 16px; transition:box-shadow 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);}*/
+/*body .dx-state-focused .dx-texteditor-container{box-shadow:inset 0 0 0 1px rgb(66,192,191), 0 1px 3px rgb(66,192,191,0.25);}*/
+
+/*글자(크기,색,굵기)변경*/
+body .dx-checkbox-has-text .dx-checkbox-text {
+    color: #26272e;
+    font-weight: 400;
+    width: auto;
+    margin-right: 16px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size:12px;
+}
+
+body .dx-texteditor.dx-editor-underlined .dx-placeholder::before, body .dx-texteditor.dx-editor-underlined .dx-texteditor-input {
+    padding: 8px 10px 8px 0;
+    color: #333;
+    font-size: 13px;
+}
+
+
+body .dx-texteditor.dx-editor-underlined .dx-placeholder::before {
+    color: #a6a6a6;
+    padding:0;
+}
+
+body .sm-gutter .row > [class^="col-"], body .sm-gutter .row > [class*="col-"] {
+    line-height: normal;
+}
+
+/*input clear버튼 수정*/
+body .dx-show-clear-button .dx-clear-button-area {
+    transform: scale(0.9);
+}
+
+body .dx-show-clear-button .dx-icon-clear {
+    background: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+body .dx-show-clear-button .dx-icon-clear:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .24);
+}
+
+/**/
+body .dx-lookup-empty .dx-lookup-field {
+    color: #333;
+}
+
+body .dx-show-clear-button .dx-icon-clear::before {
+    transform: scale(0.7);
+    color: #818190;
+    font-weight: bold;
+}
+
+/*sub_tag_area추가*/
+body .sub_tag_area .col-lg-4 {
+    flex: 0 0 calc(33.333333% - 10px)
+}
+
+body .blank {
+    width: 20px;
+}
+
+body .sub_tag_area .tag_name {
+    text-align: center;
+}
+
+body .sub_tag_area .tag_name:first-of-type {
+    text-align: left;
+}
+
+/*기간 넓이 설정*/
+body .period > .col-lg-5 {
+    flex: 0 0 calc(41.666667% - 10px);
+}
+
+body .period > .col-lg-4 {
+    flex: 0 0 calc(33.333333% - 6.7px);
+}
+
+body .period > div.wavy {
+    width: 20px;
+}
+
+/************** tag_name, input 수정 끝 **************/
+
+
+/************** 테이블 수정 시작 **************/
+
+/*!*정렬*!*/
+/*body .dx-datagrid-headers.dx-header-multi-row .dx-datagrid-content .dx-datagrid-table .dx-row.dx-header-row > td,*/
+/*body .dx-treelist-headers.dx-header-multi-row .dx-treelist-content .dx-treelist-table .dx-row.dx-header-row > td{position:relative;*/
+/*    vertical-align:middle; text-align: center!important; padding:7px;}{position:relative;*/
+/*    vertical-align:middle; text-align: center!important; padding:7px;}*/
+
+/*!*셀 높이 조정*!*/
+/*body .dx-header-row > td > .dx-datagrid-text-content{line-height: normal}*/
+
+/*좌우 border 삭제 및 정렬*/
+.dx-datagrid .dx-column-lines > td {
+    border-left: transparent !important; /*text-align:center!important;*/
+    border-right: transparent !important;
+    /*line-height: 20px !important;*/
+}
+
+/*#dataGridContractList .dx-datagrid-rowsview .dx-column-lines > td, #dataGridHospital .dx-datagrid-rowsview .dx-column-lines > td{text-align:left!important;}*/
+/*#treeListItemCode .dx-column-lines > td{text-align:center!important;} */
+/*.dx-treelist .dx-row > td {*/
+/*    line-height: 20px !important;*/
+/*}*/
+
+
+/*!*헤더 변경*!*/
+/*body .dx-datagrid-header-panel, body .dx-treelist-header-panel{padding:0;}*/
+/*body .dx-toolbar .dx-toolbar-items-container{height:37px; margin:0 0 10px 0;}*/
+/*body .sub_table .dx-toolbar-items-container{margin:20px 0 10px 0}*/
+/*body .sub_table .dx-toolbar-items-container{margin:20px 0 10px 0}*/
+body .dx-toolbar .dx-toolbar-label {
+    font-size: 18px;
+    color: #26272e;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.dx-treelist-headers.dx-header-multi-row td {
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 10px !important;
+}
+
+.dx-header-row td {
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 10px !important;
+}
+
+body .dx-header-row > td > .dx-datagrid-text-content, body .dx-header-row > td > .dx-treelist-text-content {
+    font-weight:500;
+}
+
+body #dataGridContractList .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-group-space + td, body #dataGridContractList.dx-datagrid-content .dx-datagrid-table .dx-row > tr > td.dx-datagrid-group-space + td {
+    border-left: none;
+}
+
+/*헤더 공백 제거*/
+/*body .dx-header-row .dx-datagrid-group-space{border-right:0!important;}*/
+/*body #dataGridContractList .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending) .dx-datagrid-group-space, body #dataGridContractList .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending).dx-command-expand, body #dataGridContractList .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all) .dx-datagrid-group-space, body #dataGridContractList .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all).dx-command-expand, body #dataGridContractList .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all) .dx-datagrid-group-space, body #dataGridContractList .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all).dx-command-expand{*/
+/*    border-right:0!important;*/
+/*}*/
+
+
+/*th부분 border 추가 삭제*/
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    border-right: 1px solid #eaecef !important;
+}
+
+/*.dx-datagrid-headers .dx-datagrid-table .dx-row > td:last-of-type{border-right:none!important;}*/
+/*.dx-datagrid-headers .dx-command-edit.dx-command-edit-with-icons.dx-cell-focus-disabled{border-right:transparent!important;}*/
+
+
+/*헤더 불필요한 칸 제거*/
+/*body .dx-datagrid-rowsview .dx-datagrid-table .dx-row.dx-freespace-row, body .dx-datagrid-rowsview .dx-datagrid-table .dx-row.dx-virtual-row,*/
+/*body .dx-treelist-rowsview .dx-treelist-table .dx-row.dx-freespace-row, body .dx-treelist-rowsview .dx-treelist-table .dx-row.dx-virtual-row{display:none}*/
+
+
+/*서치 변경*/
+body .dx-searchbox.dx-editor-underlined .dx-icon-search {
+    left: auto;
+    right: 0;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+
+/*body .dx-searchbox .dx-texteditor-container {*/
+/*    background: none;*/
+/*    padding: 2px 15px;*/
+/*    border-radius: 0;*/
+/*    border: 1px solid #333;*/
+/*}*/
+
+body .dx-toolbar-item-content {
+    height: auto;
+    display: flex;
+    align-items: center;;
+}
+
+body .dx-datagrid-search-panel, body .dx-treelist-search-panel {
+    margin: 0 0 0 30px;
+    height: 100%;
+}
+
+/*body .dx-datagrid-search-panel.dx-state-focused .dx-texteditor-container, body .dx-treelist-search-panel.dx-state-focused .dx-texteditor-container {*/
+/*    border: none;*/
+/*}*/
+
+body .dx-toolbar .dx-toolbar-after {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height:auto;
+}
+
+.dx-toolbar-after, .dx-toolbar-before{
+    position: relative;;
+
+}
+body .dx-toolbar-after, .dx-toolbar-before, .dx-toolbar-center {
+    top: auto;
+}
+
+
+/*서치부분 clear 버튼 삭제*/
+body .dx-toolbar-items-container .dx-datagrid-search-panel .dx-texteditor-buttons-container {
+    display: none;
+}
+
+
+/*셀 추가시 색 변경*/
+body .dx-datagrid-rowsview .dx-adaptive-detail-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-adaptive-detail-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-adaptive-detail-row:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-data-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-data-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-data-row:not(.dx-edit-row) .dx-cell-modified,
+body .dx-treelist-rowsview .dx-adaptive-detail-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-adaptive-detail-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-adaptive-detail-row:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row:not(.dx-edit-row) .dx-cell-modified {
+    background: rgba(66, 192, 191, 0.07);
+}
+
+/*셀 삭제시 색 변경*/
+body .dx-datagrid-rowsview .dx-row-removed > td, body .dx-treelist-rowsview .dx-row-removed > td {
+    background: rgba(244, 67, 54, 0.1);
+}
+
+/*!*셀 폰트 수정*!*/
+body .dx-datagrid-headers, body .dx-treelist-headers {
+    color: #26272e;
+}
+
+.dx-datagrid .dx-row > td, .dx-treelist .dx-row > td {
+    font-size: 13px;
+    /*text-align: center!important;*/
+}
+
+
+[id*="List"] .dx-datagrid .dx-row > td{
+    /*text-align:left!important;*/
+
+}
+
+.dx-link {
+    font-size: 13px !important;
+}
+
+/*body .dx-datagrid .dx-row > td, body .dx-treelist .dx-row > td{font-size:13px; padding:2px; line-height:normal;}*/
+/*body .sub_table .dx-datagrid .dx-row > td{line-height:5px; padding:0!important;}*/
+/*body .sub_table .dx-datagrid .dx-row > td{line-height:5px; padding:0!important;}*/
+/*body .sub_table.dx-datagrid-headers.dx-header-multi-row .dx-datagrid-content .dx-datagrid-table .dx-row.dx-header-row > td{line-height:normal; padding:0!important;}*/
+
+.dx-treelist-rowsview.dx-treelist-nowrap .dx-treelist-table .dx-treelist-cell-expandable .dx-treelist-text-content {
+    font-size: 13px;
+}
+
+body .dx-datagrid-headers .dx-datagrid-table .dx-row > td .dx-sort, body .dx-datagrid-headers .dx-datagrid-table .dx-row > td .dx-sort-indicator, body .dx-datagrid-headers .dx-datagrid-table .dx-row > td:hover .dx-datagrid-text-content, body .dx-treelist-headers .dx-treelist-table .dx-row > td .dx-sort, body .dx-treelist-headers .dx-treelist-table .dx-row > td .dx-sort-indicator, body .dx-treelist-headers .dx-treelist-table .dx-row > td:hover .dx-treelist-text-content {
+    color: #26272e;
+}
+
+/*body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending).dx-command-edit.dx-command-edit-with-icons .dx-link, body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all).dx-command-edit.dx-command-edit-with-icons .dx-link, body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all).dx-command-edit.dx-command-edit-with-icons .dx-link,*/
+/*body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending).dx-command-edit.dx-command-edit-with-icons .dx-link, body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-treelist-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-treelist-select-all).dx-command-edit.dx-command-edit-with-icons .dx-link, body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td:not(.dx-validation-pending):not(.dx-treelist-select-all).dx-command-edit.dx-command-edit-with-icons .dx-link{*/
+/*    font-size:13px; line-height: normal;*/
+/*}*/
+
+
+/*!*오름차순 내림차순 아이콘 정렬 및 추가*!*/
+/*body .dx-datagrid .dx-column-indicators, body .dx-treelist .dx-column-indicators{float:none!important; position: absolute; right: 5px; top:calc(50% + 1px); transform: translateY(-50%);}*/
+/*body .dx-datagrid-headers .dx-datagrid-table .dx-row > td:hover .dx-sort, body .dx-treelist-headers .dx-treelist-table .dx-row > td:hover .dx-sort{color:inherit!important;}*/
+
+/*!*마우스오버 모션 추가*!*/
+/*body .dx-datagrid .dx-column-lines > td,*/
+/*body .dx-treelist .dx-column-lines > td{transition:background 0.3s ease-out;}*/
+/*body .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused)*/
+/*> td:not(.dx-focused),*/
+/*body .dx-treelist-rowsview .dx-adaptive-detail-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-adaptive-detail-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-adaptive-detail-row:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row:not(.dx-edit-row) .dx-cell-modified*/
+/*{backgroud-color:rgba(0, 0, 0, .04);}*/
+/*body .dx-datagrid-rowsview .dx-adaptive-detail-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-adaptive-detail-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-adaptive-detail-row:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-data-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-data-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-datagrid-rowsview .dx-data-row:not(.dx-edit-row) .dx-cell-modified,*/
+/*body .dx-treelist-rowsview .dx-adaptive-detail-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-adaptive-detail-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-adaptive-detail-row:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row.dx-selection:hover:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row.dx-selection:not(.dx-edit-row) .dx-cell-modified, body .dx-treelist-rowsview .dx-data-row:not(.dx-edit-row) .dx-cell-modified{*/
+/*    background:rgb(66,192,191,0.2);*/
+/*}*/
+
+/*page number 수정*/
+body .dx-datagrid-borders > .dx-datagrid-pager, body .dx-treelist-borders > .dx-treelist-pager {
+    border-top: none !important;
+    padding: 13px 10px;
+    display: flex;
+    align-items: center;
+}
+
+body .dx-pager .dx-page-sizes {
+    margin-right: auto;
+}
+
+body .dx-pager .dx-page-sizes .dx-selection, .dx-pager .dx-pages .dx-selection {
+    background: none !important;
+    color: #000 !important;
+}
+
+body .dx-pager .dx-page-sizes .dx-page-size {
+    padding: 2px 8px;
+    color: #000000de;
+}
+
+body .dx-pager .dx-page-sizes .dx-selection, .dx-pager .dx-pages .dx-selection {
+    border-radius: 0;
+}
+
+body .dx-pager .dx-page-size:hover, .dx-pager .dx-page:hover {
+    background: none;
+}
+
+/*page number select 디자인 변경(좌측)*/
+body .dx-pager .dx-page-sizes .dx-selection, body .dx-pager .dx-pages .dx-selection {
+    border-bottom: 1px solid #000;
+}
+
+/*page number select 디자인 변경(우측)*/
+body .dx-pager .dx-pages .dx-page {
+    padding: 2px 5px;
+    float: none;
+}
+
+body .dx-pager .dx-pages .dx-info {
+    height: 30px;
+    line-height: 31px;
+}
+
+body .dx-pager .dx-page-sizes .dx-selection, .dx-pager .dx-pages .dx-selection {
+    margin: 0;
+}
+
+body .dx-pager .dx-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .dx-pager .dx-pages .dx-page-indexes {
+    display: flex;
+    align-items: center;
+}
+
+body .dx-pager .dx-page-size {
+    background: none;
+}
+
+body .dx-pager .dx-pages .dx-page {
+    margin: 0;
+}
+
+body .dx-pager .dx-pages .dx-selection {
+    position: relative;
+    /*top: 1px;*/
+}
+
+/************** 테이블 수정 끝 **************/
+
+
+/************** text_area 수정 **************/
+
+/*body #notes, body .notes {*/
+/*    height: 100px;*/
+/*}*/
+
+body #notes .dx-texteditor-container, body .notes .dx-texteditor-container {
+    position: relative;
+    /*padding: 3px 16px;*/
+}
+
+/*오른쪽 아래 화살표 표시*/
+/*body #notes .dx-texteditor-container::after, body .notes .dx-texteditor-container::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    bottom: 10px;*/
+/*    right: 10px;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-top: 10px solid transparent;*/
+/*    border-right: 10px solid #d7dbde;*/
+/*}*/
+
+
+/************** 체크박스,라디오 수정 시작 **************/
+
+/*정렬*/
+body .dx-radiogroup-horizontal .dx-radiobutton {
+    line-height: normal
+}
+
+body .dx-radiogroup-horizontal .dx-radiobutton {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+/*체크박스버튼 아이콘 변경*/
+body .dx-checkbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body .dx-checkbox-icon {
+    border-radius: 0;
+    border: 1px solid #26272e;
+    width: 14px;
+    height: 14px;
+}
+
+body .dx-checkbox-checked .dx-checkbox-icon {
+    font: 11px/16px DXIcons;
+    font-weight: bold;
+}
+
+body .dx-checkbox-checked .dx-checkbox-icon::before {
+    width: 15px !important;
+    height: 15px !important;
+    left:50%;
+    top: 50%;
+    margin: 0 !important;
+    transform: translate(-50%, -50%)
+}
+
+bo.dx-checkbox.dx-checkbox-checked.dx-state-readonly .dx-checkbox-icondy::before {
+    left: 50%;
+}
+
+/*라디오버튼 아이콘 변경*/
+body .dx-radiobutton-icon::before {
+    border: 1px solid #26272e;
+    width: 14px;
+    height: 14px;
+}
+
+body .dx-radiobutton-icon-checked .dx-radiobutton-icon-dot {
+    border-radius: 100%;
+}
+
+body .dx-radiobutton-icon-checked::before {
+    border-color: #34bac4;
+}
+
+/************** 버튼 커스텀 **************/
+body .btnGray {
+    padding: 0;
+    background: #778292;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnGray:hover {
+    background: #4b657c;
+}
+
+body .btnBlue {
+    padding: 0;
+    margin-left: 8px;
+    background: #4a90d4;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnBlue:hover {
+    background: #1f5182;
+}
+
+body .btnboard {
+    padding: 0;
+    background: #33a6ac;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnboard:hover {
+    background: #29868b;
+}
+
+body .btnExcelSample {
+    padding: 0;
+    background: rgba(30, 116, 69, 1);
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnExcelSample:hover {
+    background: rgba(18, 69, 41, 1);
+}
+
+body .btnExcelDown {
+    padding: 0;
+    background: rgba(30, 116, 69, 1);
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnExcelDown:hover {
+    background: rgba(18, 69, 41, 1);
+}
+
+body .btnExcelImport {
+    padding: 0;
+    margin-left: 10px;
+    background: #f89e34;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnExcelImport:hover {
+    background: #E06D24;
+}
+
+body .btnCheckup {
+    padding: 0;
+    background: #00469c !important;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnCheckup:hover {
+    background: #0982B3;
+}
+
+body .btnReservation {
+    padding: 0;
+    background: #7a5597;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnReservation:hover {
+    background: #7158AD;
+}
+
+body .btnPayCompleted {
+    padding: 0;
+    background: #84b04f;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnPayCompleted:hover {
+    background: #BBC750;
+}
+
+body .btnReserveCancel {
+    padding: 0;
+    background: #5d5d5d;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnReserveCancel:hover {
+    background: #73676D;
+}
+
+body .btnReserveHold {
+    padding: 0;
+    background: #f89e34;
+    color: white;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnReserveHold:hover {
+    background: #E06D24;
+}
+
+body .btnCancel {
+    padding: 0;
+    background: #FEDCDB;
+    color: #93322B;
+    height: 37px;
+    box-shadow: none;
+    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1)
+}
+
+body .btnCancel:hover {
+    background: #E8BCCD;
+}
+
+
+.btn-padding {
+    padding-left: 40px;
+}
+
+/************** 체크박스,라디오 수정 끝 **************/
+
+/************** 로고 수정 **************/
+.logo_img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_img img {
+    max-height: 100%;
+}
+
+/************** 버튼영역 **************/
+.btn_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 !important;
+    width: 100%;
+    /*position:fixed; left:auto; bottom:auto; right:15px; top:0; background: #fff; z-index: 798;  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);*/
+}
+
+body .btn_area > div.dx-button {
+    margin: 0 5px;
+    transition: background-color 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+    max-width: 170px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    flex: none;
+    color: #fff
+}
+
+body .btn_area > div.dx-button:hover {
+    box-shadow: none !important;
+}
+
+body .btn_area .dx-button-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: normal;
+    padding: 0 !important;
+}
+
+.btn_area i {
+    font-size: 17px;
+    margin-right: 6px;
+    color: #fff;
+}
+
+
+.index_btn_area > div {
+    border: none !important;
+}
+
+
+body .index_btn_area .dx-button-content {
+    padding: 0 !important
+}
+
+.main_btn_area > div {
+    margin: 0 5px;
+}
+
+.main_btn_area > div.col-lg-3 {
+    flex: 0 0 calc(25% - 10px)
+}
+
+/************** footer 수정 **************/
+footer .copyright {
+    border: none;
+    padding: 0;
+}
+
+footer .copyright .small-text {
+    white-space: nowrap;
+}
+
+footer .copyright .small-text .hint-text {
+    float: left;
+    margin: 0;
+}
+
+footer .content {
+    padding-top: 0 !important;
+}
+
+/*footer .content .container-fluid{padding-top:0!important;}*/
+
+
+/************** 추가 수정 **************/
+tr.dx-state-hover {
+    background: rgba(0, 0, 0, .06) !important;
+}
+
+/*body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all), body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all),*/
+/*body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-treelist-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-treelist-select-all), body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td:not(.dx-validation-pending):not(.dx-treelist-select-all){*/
+/*    position: relative;}*/
+
+/*제목 border 처리*/
+body .dx-datagrid-headers tbody,
+body .dx-treelist-headers tbody {
+    /*border-bottom: 3px double #999;*/
+    border-bottom:1px solid #eaecef;
+}
+
+
+/*셀 텍스트 정렬*/
+/*body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all), body .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all),*/
+/*body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-treelist-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-treelist-select-all), body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td:not(.dx-validation-pending):not(.dx-treelist-select-all){*/
+/*    text-align: center!important; height:50px;*/
+/*}*/
+
+
+/************** dataGridContractList **************/
+/*정렬 (진행병원)*/
+body #dataGridContractList .dx-datagrid-rowsview .dx-row.dx-group-row td {
+    position: relative;
+}
+
+/*body #dataGridContractList .dx-datagrid-rowsview .dx-row.dx-group-row td > span {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*}*/
+
+/*body #dataGridContractList td, body #dataGridHospital td, body #dataGridCheckupTypeList td,body #dataGridManager td{text-align:left!important;}*/
+
+
+/*팝업서치 수정*/
+body .dx-popup-wrapper .dx-toolbar .dx-toolbar-before {
+    display: flex;
+    align-items: center;
+
+}
+.dx-toolbar .dx-toolbar-before{
+    position: relative; float: left;     margin-right: auto;
+}
+.dx-treelist-header-panel{padding:0!important; margin-bottom: 20px;}
+
+
+body .dx-toolbar-before .dx-toolbar-label .dx-toolbar-item-content {
+    /*padding-right: 20px;*/
+    padding:0;
+    margin:0!important;
+}
+
+body .dx-popup-wrapper .dx-state-focused .dx-texteditor-container {
+    border: none
+}
+
+/*체크박스 4개이상*/
+body #dataGridContractList .dx-datagrid-rowsview td:last-of-type {
+    display: flex;
+    align-items: center; /*justify-content:center;*/
+}
+
+body #dataGridContractList .dx-datagrid-rowsview .dx-row.dx-group-row td {
+    display: table-cell;
+}
+
+body #dataGridContractList .dx-checkbox-text {
+    margin: 0;
+    padding-left: 5px;
+}
+
+body #dataGridContractList .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    border-bottom: none !important;
+}
+
+body #dataGridContractList .dx-datagrid-rowsview .dx-row, body #dataGridContractList .dx-datagrid .dx-row-lines > td {
+    border-right: none;
+}
+
+body #dataGridContractList .dx-datagrid .dx-row-lines > td {
+    border: none;
+}
+
+body #dataGridContractList .dx-datagrid .dx-column-lines > td {
+    border-right: 1px solid #eaecef;
+    border-left: none;
+}
+
+
+body #dataGridContractList .dx-datagrid-rowsview .dx-row {
+    border-bottom: 1px solid #eaecef
+}
+
+body #dataGridContractList .dx-datagrid-rowsview .dx-row:last-of-type {
+    border-bottom: none;
+}
+
+body #dataGridContractList .dx-datagrid-rowsview .dx-row td:last-of-type {
+    border-right: none;
+}
+
+body #dataGridContractList .dx-datagrid .dx-row-alt.dx-row:not(.dx-row-removed) {
+    border-bottom-color: #eaecef;
+}
+
+
+/*!*리스트창 정렬*!*/
+/*body #dataGridContractList .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-treelist-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-treelist-select-all), body .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td:not(.dx-validation-pending):not(.dx-treelist-select-all){text-align:left!important;}*/
+
+
+/*!*수정화면 height 값 조정 (작게)*!*/
+/*body .sub_table .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .sub_table .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all), body .sub_table .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all), body .sub_table .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .sub_table .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-treelist-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-treelist-select-all), body .sub_table .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td:not(.dx-validation-pending):not(.dx-treelist-select-all)*/
+/*{*/
+/*    height:20px!important; !*40px*!*/
+/*}*/
+/*body .sub_table .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .sub_table .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-datagrid-select-all), body .sub_table .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-row > td:not(.dx-validation-pending):not(.dx-datagrid-select-all), body .sub_table .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), body .sub_table .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-treelist-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-treelist-select-all), body .sub_table .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td:not(.dx-validation-pending):not(.dx-treelist-select-all)*/
+/*{*/
+/*    height:20px!important;*/
+/*}*/
+
+/*!*높이수정*!*/
+/*body .main_table{height:657px!important;}*/
+/*body .sub_table{height:297px!important;}*/
+/*body .dx-datagrid-content .dx-datagrid-table .dx-row > td.dx-datagrid-group-space, .dx-datagrid-content .dx-datagrid-table .dx-row > tr > td.dx-datagrid-group-space{border-right:none!important;}*/
+
+body .main_table .dx-datagrid-content .dx-state-focused .dx-texteditor-container {
+    box-shadow: none !important;
+}
+
+body .sub_table .dx-datagrid-content .dx-state-focused .dx-texteditor-container {
+    box-shadow: none !important;
+}
+
+
+#dataGridHospital .dx-button.dx-button-normal.dx-button-mode-contained.dx-widget.dx-button-has-text {
+    margin: 0 5px
+}
+
+/*!*검사항목 수정*!*/
+/*.dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-cell-modified:not(.dx-field-item-content):not(.dx-validation-pending), .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td.dx-treelist-invalid:not(.dx-field-item-content):not(.dx-validation-pending):not(.dx-treelist-select-all), .dx-treelist .dx-treelist-content .dx-treelist-table .dx-row > td:not(.dx-validation-pending):not(.dx-treelist-select-all){*/
+/*    height:50px!important;*/
+/*}*/
+/*body .dx-texteditor-container{background:#f5f7f9; border-radius: 5px; padding:3px 16px; -webkit-transition:-webkit-box-shadow 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1); transition:-webkit-box-shadow 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1); -o-transition:box-shadow 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1); transition:box-shadow 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1); transition:box-shadow 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1), -webkit-box-shadow 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);}*/
+/*body .dx-state-focused .dx-texteditor-container{-webkit-box-shadow:inset 0 0 0 1px rgb(66,192,191), 0 1px 3px rgba(66,192,191,0.25)!important;box-shadow:inset 0 0 0 1px rgb(66,192,191), 0 1px 3px rgba(66,192,191,0.25)!important;}*/
+
+
+/*!*셀 폰트 수정*!*/
+/*body dx-datagrid .dx-row > td a, body dx-treelist .dx-row > td a{font-size:13px!important; padding:2px!important; line-height:5px;}*/
+
+/*!*table 짝수칸 색 수정*!*/
+
+body .dx-datagrid-rowsview .dx-selection > td .dx-link, body .dx-datagrid-rowsview .dx-selection > tr > td .dx-link, body .dx-datagrid-rowsview .dx-selection.dx-row:hover > td .dx-link, body .dx-datagrid-rowsview .dx-selection.dx-row:hover > tr > td .dx-link,
+body .dx-treelist-rowsview .dx-selection > td .dx-link, body .dx-treelist-rowsview .dx-selection > tr > td .dx-link, body .dx-treelist-rowsview .dx-selection.dx-row:hover > td .dx-link, body .dx-treelist-rowsview .dx-selection.dx-row:hover > tr > td .dx-link {
+    color: #34bac4
+}
+
+/************** lookup select 버튼 수정 **************/
+body .dx-lookup.dx-editor-underlined {
+    display: inline-table;
+}
+
+body .dx-lookup.dx-editor-underlined .dx-lookup-field {
+    /*height: 37px;*/
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 0 3px 16px;
+    /*background: #f5f7f9;*/
+    border-radius: 5px;
+}
+
+body .dx-lookup-arrow {
+    right: 12px;
+}
+
+
+/************** 커스텀버튼 추가 **************/
+
+#btnSave {
+    background: #33a6ac;
+}
+
+#btnSave:hover {
+    background: #29868b;
+}
+
+#btnCreate {
+    background: #34bac4;
+}
+
+#btnCreate:hover {
+    background: #29868b
+}
+
+#btnCreate > div {
+    padding: 0;
+}
+
+#btnList {
+    background: #999;
+}
+
+#btnList:hover {
+    background: #777;
+}
+
+#btnExcel {
+    background: #1b8b93;
+    color: #fff;
+}
+
+#btnExcel:hover {
+    background: #0a5d63;
+}
+
+#btnExcel i {
+    font-size: 15px;
+    margin-right: 8.5px;
+}
+
+/*#btnSampleDown {*/
+/*    height: 28px;*/
+/*    color: #e9575a;*/
+/*    border: 1px solid #e9575a;*/
+/*    box-shadow: none !important;*/
+/*    transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);*/
+/*    flex: none;*/
+/*    width: auto;*/
+/*}*/
+
+/*#btnSampleDown:hover {*/
+/*    background-color: rgba(233, 87, 90, 0.1);*/
+/*}*/
+
+/*#btnSampleDown .dx-button-content {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*#btnSampleDown i {*/
+/*    font-size: 15px;*/
+/*    margin-right: 3px;*/
+/*}*/
+
+
+#btnPlatformManager {
+    background: #f89e34;
+    transition: background 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    padding: 5px 0;
+}
+
+#btnCompanyManager {
+    background: #84b04f;
+    transition: background 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+    padding: 5px 0;
+}
+
+#btnPlatformManager:hover {
+    background: #f89e34
+}
+
+#btnCompanyManager:hover {
+    background: #84b04f
+}
+
+
+.write_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --color: #fff;
+    --background-left: #2b3044;
+    --folder: #f3e9cb;
+    --folder-inner: #beb393;
+    --paper: #fff;
+    --paper-lines: #bbc1e1;
+    --paper-behind: #e1e6f9;
+    --pencil-cap: #fff;
+    --pencil-top: #275efe;
+    --pencil-middle: #fff;
+    --pencil-bottom: #5c86ff;
+    /* --shadow:rgba(13,15,25,.2);*/
+    --pencil-opacity: 1;
+    position: relative;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 170px;
+    height: 100%;
+    transition: background 0.3s;
+    color: var(--color);
+    background: var(--bg, var(--background));
+}
+
+.write_btn > div {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 80px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: -25px;
+    transform: scale(0.7);
+}
+
+/*.write_btn>span{position:relative; top:1px;}*/
+.write_btn > div .folder {
+    width: 23px;
+    height: 27px;
+    position: absolute;
+    left: 15px;
+    top: 26.5px;
+}
+
+.write_btn > div .folder .top {
+    left: 0;
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    transform: translateX(var(--fx, 0));
+    transition: transform 0.4s ease var(--fd, 0.3s);
+}
+
+.write_btn > div .folder .top svg {
+    width: 24px;
+    height: 27px;
+    display: block;
+    fill: var(--folder);
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease var(--fds, 0.45s);
+    transform: perspective(120px) rotateY(var(--fr, 0deg));
+}
+
+.write_btn > div .folder:before, .write_btn > div .folder:after, .write_btn > div .folder .paper {
+    content: '';
+    position: absolute;
+    left: var(--l, 0);
+    top: var(--t, 0);
+    width: var(--w, 100%);
+    height: var(--h, 100%);
+    border-radius: 1px;
+    background: var(--b, var(--folder-inner));
+}
+
+.write_btn > div .folder:before {
+    box-shadow: 0 1.5px 3px var(--shadow), 0 2.5px 5px var(--shadow), 0 3.5px 7px var(--shadow);
+    transform: translateX(var(--fx, 0));
+    transition: transform 0.4s ease var(--fd, 0.3s);
+}
+
+.write_btn > div .folder:after, .write_btn > div .folder .paper {
+    --l: 1px;
+    --t: 1px;
+    --w: 21px;
+    --h: 25px;
+    --b: var(--paper-behind);
+}
+
+.write_btn > div .folder:after {
+    transform: translate(var(--pbx, 0), var(--pby, 0));
+    transition: transform 0.4s ease var(--pbd, 0s);
+}
+
+.write_btn > div .folder .paper {
+    z-index: 1;
+    --b: var(--paper);
+}
+
+.write_btn > div .folder .paper:before, .write_btn > div .folder .paper:after {
+    content: '';
+    width: var(--wp, 14px);
+    height: 2px;
+    border-radius: 1px;
+    transform: scaleY(0.5);
+    left: 3px;
+    top: var(--tp, 3px);
+    position: absolute;
+    background: var(--paper-lines);
+    box-shadow: 0 12px 0 0 var(--paper-lines), 0 24px 0 0 var(--paper-lines);
+}
+
+.write_btn > div .folder .paper:after {
+    --tp: 6px;
+    --wp: 10px;
+}
+
+.write_btn > div .pencil {
+    height: 2px;
+    width: 3px;
+    border-radius: 1px 1px 0 0;
+    top: 23.5px;
+    left: 105%;
+    position: absolute;
+    z-index: 3;
+    transform-origin: 50% 19px;
+    background: var(--pencil-cap);
+    transform: translateX(var(--pex, 0)) rotate(35deg);
+    transition: transform 0.4s ease var(--pbd, 0s);
+}
+
+.write_btn > div .pencil:before, .write_btn > div .pencil:after {
+    content: '';
+    position: absolute;
+    display: block;
+    background: var(--b, linear-gradient(var(--pencil-top) 55%, var(--pencil-middle) 55.1%, var(--pencil-middle) 60%, var(--pencil-bottom) 60.1%));
+    width: var(--w, 5px);
+    height: var(--h, 20px);
+    border-radius: var(--br, 2px 2px 0 0);
+    top: var(--t, 2px);
+    left: var(--l, -1px);
+}
+
+.write_btn > div .pencil:before {
+    clip-path: polygon(0 5%, 5px 5%, 5px 17px, 50% 20px, 0 17px);
+}
+
+.write_btn > div .pencil:after {
+    --b: none;
+    --w: 3px;
+    --h: 6px;
+    --br: 0 2px 1px 0;
+    --t: 3px;
+    --l: 3px;
+    border-top: 1px solid var(--pencil-top);
+    border-right: 1px solid var(--pencil-top);
+}
+
+.write_btn:after {
+    --r: 45deg;
+}
+
+.write_btn {
+    animation: write 2s linear infinite;
+}
+
+@keyframes write {
+    100% {
+        --cx: 2px;
+        --bg: var(--background-hover);
+        --fx: -40px;
+        --fr: -60deg;
+        --fd: 0.15s;
+        --fds: 0s;
+        --pbx: 3px;
+        --pby: -3px;
+        --pbd: 0.15s;
+        --pex: -24px;
+    }
+}
+
+
+/* 메뉴 펼침 */
+.page-sidebar .sidebar-menu .menu-items > li ul.sub-menu {
+    padding: 0;
+}
+
+.page-sidebar .sidebar-menu .menu-items > li ul.sub-menu > li {
+    padding-top: 6px;
+}
+
+/*sidebar 높이조절*/
+.scroll-wrapper > .scroll-content {
+    height: calc(100% - 190px) !important;
+}
+
+.footer-teg {
+    position: fixed;
+    bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px !important;
+    background: #323237;
+}
+
+.notitok-footer .tag-name {
+    background: #dddedd !important;
+}
+
+.notitok-footer {
+    margin-top: 14px;
+    height: 41px;
+    padding: 4px 15px;
+}
+

@@ -1,0 +1,244 @@
+
+
+tr.dx-header-row:hover{
+    background:#f9fafb!important;
+}
+tr.dx-header-row td{
+    background:#f9fafb!important;
+}
+
+.hoverBlue {
+    background: #e8f1ef;
+}
+
+.hoverGray {
+    background: #e4eef3;
+}
+
+.bottom-0 {
+    border-bottom: 0px !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.left {
+    float: left !important;
+}
+
+/* 예약현황 메모 */
+.employeeMemo {
+    font-size: 0.9em;
+    color: white;
+    width: 1.5em;
+    border-radius: 3em;
+    padding: .1em .2em;
+    line-height: 1.25em;
+    /*border: 1px solid #333;*/
+    display: inline-block;
+    text-align: center;
+    background: #F6972D;
+}
+
+.hospitalMemo {
+    font-size: 0.9em;
+    color: white;
+    width: 1.5em;
+    border-radius: 3em;
+    padding: .1em .2em;
+    line-height: 1.25em;
+    /*border: 1px solid #333;*/
+    display: inline-block;
+    text-align: center;
+    background: #30C897;
+}
+
+.platformMemo {
+    font-size: 0.9em;
+    color: white;
+    width: 1.5em;
+    border-radius: 3em;
+    padding: .1em .2em;
+    line-height: 1.25em;
+    /*border: 1px solid #333;*/
+    display: inline-block;
+    text-align: center;
+    background: rgba(0, 126, 132, 1);
+}
+
+.reserveContent {
+    font-size: 1em;
+    color: white;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 3em;
+    padding: -0.9em .2em;
+    line-height: 1.25em;
+    /*border: 1px solid #333;*/
+    display: inline-block;
+    text-align: center;
+    background: #0b7b86;
+}
+
+.specialCheck {
+    font-size: 0.9em;
+    color: white;
+    width: 1.5em;
+    border-radius: 3em;
+    padding: .1em .2em;
+    line-height: 1.25em;
+    /*border: 1px solid #333;*/
+    display: inline-block;
+    text-align: center;
+    background: red;
+}
+
+/* 전체적용 */
+label, input, button, select, textarea, body .dx-widget {
+    font-weight: 400 !important;
+}
+
+/* 테이블 헤더 수정 */
+body .dx-datagrid-headers {
+    color: #333 !important;
+    border-top: 2px solid #34bac4!important;
+    /*border-bottom: 2px solid #999!important;*/
+    background:#f9fafb;
+    position: relative;
+    z-index: 3;
+}
+body .dx-treelist-headers{
+    border-top: 2px solid #34bac4!important;
+}
+
+/*body .dx-datagrid-headers.dx-datagrid-nowrap{*/
+/*    border-bottom:0!important;*/
+/*}*/
+
+/*body .dx-datagrid-headers.dx-datagrid-nowrap .dx-datagrid-content{*/
+/*    display: none;*/
+/*}*/
+
+body .dx-datagrid-header-panel{
+    /*border-bottom:2px solid #34bac4!important;*/
+    border-bottom:0!important;
+}
+
+body .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #333 !important;
+    border-right: 0 !important;
+    padding: 15px !important;
+    /*border-bottom:0!important;*/
+}
+body .dx-datagrid-headers .dx-datagrid-table .dx-row > td:last-of-type{
+    border-right:0!important;
+}
+
+
+body #dataGridCheckupType .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    border-right:1px solid #eaecef!important;
+    /*border-bottom:0!important;*/
+}
+body #dataGridCheckupType .dx-datagrid-headers .dx-datagrid-table .dx-row > td:last-of-type{
+    border-right:1px solid #eaecef!important;
+}
+
+
+
+
+/*body .dx-datagrid-headers .dx-header-row:nth-of-type(2) > td:last-of-type{*/
+/*    border-right:1px solid #eaecef!important*/
+/*}*/
+
+
+/* datagrid */
+.dx-treelist-container {
+    color: #333;
+}
+
+.dx-datagrid .dx-row-lines > td {
+    border-color: #eaecef !important;
+    /*transition: background 0.3s ease;*/
+}
+
+.dx-datagrid-rowsview {
+    border-bottom: 0 !important
+}
+
+.dx-datagrid .dx-row > td, .dx-datagrid .dx-row > tr > td {
+    color: #494949 !important;
+    /*padding: 9px 10px !important;*/
+}
+
+.dx-datagrid-borders > .dx-datagrid-headers, .dx-datagrid-borders > .dx-datagrid-rowsview, .dx-datagrid-borders > .dx-datagrid-total-footer {
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.dx-datagrid-total-footer {
+    border-bottom: 0 !important;
+}
+
+body .dx-pager .dx-pages .dx-info {
+    color: #494949;
+    font-size: 13px;
+    height: auto;
+    line-height: normal;
+    opacity: 1;
+    /*padding-top: 20px;*/
+
+}
+
+/* 링크 */
+.dx-theme-material-typography a {
+    color:#398fc8 !important;
+    font-size: 14px !important;
+    position: relative; /* 밑줄 */
+    height: 20px !important;
+    line-height: 20px !important;
+    font-weight:500;
+}
+
+.dx-theme-material-typography a:hover{
+    text-decoration: underline!important;
+}
+.dx-theme-material-typography a:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #398fc8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.dx-theme-material-typography a.dx-link-icon:after {
+    display: none;
+}
+
+/* 마우스오버 */
+
+/* 전체 */
+tr.dx-state-hover {
+    background: #f9fafb !important;
+}
+
+/* 헤더 */
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td:hover:not(.dx-command-select):not(.dx-command-expand):not(.dx-editor-cell):not(.dx-command-edit):not(.dx-datagrid-group-space) {
+    background:#f9fafb!important;
+
+}
+
+/* 전체셀 */
+.dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused) > td:not(.dx-focused) {
+    background:#e1f5f6!important;
+}
+
+/* 포커스된 셀 */
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td, .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > tr > td, .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover > td, .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover > tr > td {
+    background: #e1f5f6 !important;
+}
